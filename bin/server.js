@@ -4,4 +4,4 @@ var NodeFlowServer = require('../lib/nodeflow-server.js').NodeFlowServer;
 
 var NodeFlowServer = new NodeFlowServer();
 
-NodeFlowServer.start("localhost", "6633");
+NodeFlowServer.start("0.0.0.0", "6633");
